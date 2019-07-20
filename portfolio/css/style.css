@@ -1,0 +1,271 @@
+html,bod{
+    margin: 0;
+    padding: 0;
+    background-color: #efe9e9;
+    text-align: center;
+    color: #333;
+}
+.clearfix{
+    clear: both;
+}
+h1{
+    margin: 30px auto;
+}
+.row{
+    background-color: #efe9e9;
+}
+.container-portfolio .main-menu{
+
+    width: 100%;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    float: left;
+    
+}
+.main-menu ul{
+    width: 755px;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+.main-menu ul li{
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+    margin: 5px;
+    color: #333;
+    border: 1px solid #333;
+    font-family: arial;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+}
+.main-menu ul li:hover,
+.active{
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #15191a;
+    
+}
+.container-portfolio{
+    width: 100%;
+    height: 100%;
+    padding: 0 ;
+    text-align: center;
+}
+.box{
+    
+    margin: 10px;
+    padding: 0px;
+    display: inline-block;
+    border: 3px solid #999;
+    overflow: hidden;
+}
+.box img{
+    object-fit: cover;
+    object-position: center;
+    width: 300px;
+    height: 300px;
+}
+.overlay{
+    object-fit: contain;
+    width: 300px;
+    height: 300px;
+    background-color: #ccc;
+    position: absolute;
+    opacity: 0;
+    z-index: 9;
+    border: 10px solid #FFF;
+    margin: -300px 10px 0 0;
+}
+.overlay > .fa { 
+    font-size: 2em;
+    margin-top: 45%;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px 5px 3px 5px;
+}
+.overlay > .fa:first-child { 
+    background-color: #e5214d;
+}
+.overlay > .fa:nth-child(2) { 
+    background-color: #1467d9;
+    padding: 5px 9px 3px 9px;
+}
+.overlay > .fa:hover { 
+    cursor: pointer;
+    opacity: 5;
+    background-color: transparent;
+}
+.overlay > .fa:first-child:hover {
+    color: #e5214d;
+    border-color: #e5214d;
+}
+.overlay > .fa:nth-child(2):hover {
+    color: #1467d9;
+    border-color: #1467d9;
+}
+.overlay:hover{
+    opacity: .5;
+    
+}
+
+.all:hover{
+    border: 3px solid #FFF;
+    opacity: .5;
+}
+.website:hover{
+    border: 3px solid #f75e5e;
+}
+.graphics:hover{
+    border: 3px solid #40d852;
+}
+.psd:hover{
+    border: 3px solid #32b7e8;
+}
+.logo:hover{
+    border: 3px solid #b91bf4;
+}
+.applications:hover{
+    border: 3px solid #f2f230;
+}
+.ux:hover{
+    border: 3px solid #5310eb;
+}
+
+
+.profile-img{
+    height: 400px;
+    width: 100%;
+    border: 1px solid #CCC;
+    
+}
+.profile-img>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center
+}
+.container-fluod{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*****************************
+******Start Navbar Style******
+*****************************/
+.navbar{
+    width: 100%;
+    border-radius: 0;
+    position: fixed;
+    z-index: 999;
+    padding: 0 130px;
+}
+.navbar > li > a {
+    position: relative;
+    display: inline-block;
+    margin: 15px 5px;
+    padding: 0;
+}
+.navbar ul li a i{
+    font-size: 1.7em;
+    vertical-align: middle;
+}
+.navbar ul li a span{
+    height: 16px;
+    width: 16px;
+    background-color: #ff2a22;
+    display: inline-block;
+    text-align: center;
+    font-size: .8em;
+    color: #FFF;
+    border-radius: 50%;
+    line-height: 15px;
+    vertical-align: top;
+    position: relative;
+    right: 8px;
+    bottom: 2px;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    line-height: 20px;
+    margin: 0 100px 0 0;
+    height: 100%;
+}
+.navbar-brand > .row{
+    height: 50px;
+    color: #3498db;
+    margin-left: 20px;
+}
+.navbar-brand .row > img{
+    border-radius: 50%;
+    margin: 2px 10px 2px 0;
+    width: 47px;
+    height: 47px;
+    
+}
+.nav-search{
+    margin-left: 85px;
+    max-width: 550px;
+}
+.nav-search > .form-group{
+    height: 30px;
+    margin-top: 2px;
+}
+.nav-search > .form-group input[type="text"]:focus{
+    background-color: #FFF;
+    color: #666;
+    font-size: 1.3em;
+}
+.nav-search > .form-group input[type="text"]:focus + a{
+    background-color: #3498db;
+    color: #FFF;
+
+}
+.form-group button{
+    padding:0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+}
+.nav-search .form-control{
+    max-width: 500px ;
+    width: 500px;
+    border-radius: 3px;
+    display: block;
+    background-color: rgba(148, 158, 160, 0.3);
+    border: 1px solid rgba(90, 96, 100, 0.71);
+    margin: 0 auto;
+}
+.form-group > a{
+    padding: 4px 10px;
+    position: relative;
+    float: right;
+    top: -33px;
+    border-radius: 0 3px 3px 0;
+    z-index: 999px;
+}
+
+.form-group a i{
+    font-size: 1.7em;
+    color: #fff;
+}
+.form-group > a:hover{
+    background-color: #3498db;
+    text-decoration: none !important;
+    color: #FFF ;
+}
+
+
+/*****************************
+******End Navbar Style******
+*****************************/
+

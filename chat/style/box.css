@@ -1,0 +1,383 @@
+body{
+    background-color: #404040
+}
+ul{
+    list-style: none;
+}
+.container-body{
+   
+    
+    height: 710px;
+    margin: 0 30px;
+    border-radius: 5px;
+}
+.people-list {
+  background-color: #272525;
+  border-radius: 5px 0 0 5px;
+  width: 320px;
+  height: 710px;
+  float: left;
+  color: white;
+}
+  .people-list .search {
+  padding: 20px;
+}
+  .people-list input {
+  border-radius: 3px;
+  border: none;
+  padding: 14px;
+  color: white;
+  background: #90929b;
+  width: 90%;
+  font-size: 14px;
+}
+  .people-list .fa-search {
+  position: relative;
+  left: -25px;
+}
+  .people-list ul {
+  overflow-y: auto;
+  padding: 20px;
+  height:80%;
+}
+  .people-list ul li {
+  padding-bottom: 20px;
+}
+  .people-list img {
+  float: left;
+}
+  .people-list .about {
+  float: left;
+  margin-top: 8px;
+}
+  .people-list .about {
+  padding-left: 8px;
+}
+  .people-list .status {
+  color: #92959E;
+}
+
+
+  .chat-list {
+
+  width: 260px;
+  height: 670px;
+  float: left;
+}
+  .chat-list .search {
+  padding: 20px;
+}
+  .chat-list input {
+  border-radius: 3px;
+  border: none;
+  padding: 14px;
+  color: white;
+  background: #6A6C75;
+  width: 90%;
+  font-size: 14px;
+}
+  .chat-list .fa-search {
+  position: relative;
+  left: -25px;
+}
+  .chat-list ul {
+  overflow-y: scroll;
+  margin: 20px;
+  height:100%;
+}
+  .chat-list ul li {
+  padding-bottom: 20px;
+}
+  .chat-list img {
+  float: left;
+}
+  .chat-list .about {
+  float: left;
+  margin-top: 8px;
+}
+  .chat-list .about {
+  padding-left: 8px;
+}
+  .chat-list .status {
+  color: #92959E;
+}
+
+
+
+  .chat {
+  width: 900px;
+  margin-left: 10px;
+  height: 100%;
+  float: right;
+  background: #F2F5F8;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #434651;
+}
+  .chat .chat-header {
+  padding: 10px;
+  border-bottom: 2px solid #6A6C75;
+  height: 50px;
+}
+  .chat .chat-header img {
+  float: left;
+}
+  .chat .chat-header .chat-about {
+  float: left;
+  padding-left: 10px;
+  margin-top: 6px;
+}
+  .chat .chat-header .chat-with {
+  font-weight: bold;
+  font-size: 16px;
+}
+  .chat .chat-header .chat-num-messages {
+  color: #92959E;
+}
+  .chat .chat-header .fa-star {
+  float: right;
+  color: #D8DADF;
+  font-size: 1.9em;
+  margin: 10px;
+}
+  .chat .chat-box {
+  padding: 30px 30px 20px;
+  border-bottom: 2px solid white;
+  overflow-y: auto;
+  height: 430px;
+}
+  .chat .chat-box .message-info {
+  margin-bottom: 5px;
+  
+}
+  .chat .chat-box .message-info-time {
+  color: #a8aab1;
+  padding: 0 10px;
+}
+.chat .chat-box .fa{
+    padding: 5px 10px 0 10px;
+    
+}
+
+.chat .chat-box .message-info-name {
+  padding: 0 0px;
+    
+}
+.chat .chat-box .message-info-img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    
+}
+.chat .chat-box .message-info-img > img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    
+}
+  .chat .chat-box .message {
+  color: white;
+  padding: 10px 15px;
+  line-height: 26px;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-bottom: 0px;
+  max-width: 90%;
+  position: relative;
+      display: inline-table;
+      -webkit-display: inline-table;
+      -moz-display: inline-table;
+      -o-display: inline-table;
+
+}
+  /*.chat .chat-box .message:after {
+  bottom: 100%;
+  left: 7%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #86BB71;
+  border-width: 10px;
+  margin-left: -10px;
+}*/
+  .chat .chat-box .self {
+  background: #86BB71;
+  border-top-left-radius: 0;
+  text-align: left;
+}
+ .chat .chat-box .self:before {
+  float: left;
+}
+  .chat .chat-box .friend {
+  background: #94C2ED;
+  border-top-right-radius: 0;
+  text-align: right;
+  float: right;
+}
+  /*.chat .chat-box .friend:after {
+  border-bottom-color: #94C2ED;
+  left: 93%;
+}*/
+  .chat .input-message {
+      padding: 15px;
+      position: absolute;
+      bottom: 30px;
+      width: 870px;
+}
+  .chat .input-message textarea {
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+  font: 14px/22px "Lato", Arial, sans-serif;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  resize: none;
+}
+  .chat .input-message .fa-file-o, .chat .input-message .fa-file-image-o {
+  font-size: 16px;
+  color: gray;
+  cursor: pointer;
+}
+  .chat .input-message button {
+  float: right;
+  color: #94C2ED;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #F2F5F8;
+}
+  .chat .input-message button:hover {
+  color: #75b1e8;
+}
+
+.online, .offline, .me {
+  margin-right: 3px;
+  font-size: 10px;
+}
+
+.online {
+  color: #86BB71;
+}
+
+.offline {
+  color: #E38968;
+}
+
+.me {
+  color: #94C2ED;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+
+/*****************************
+******Start Navbar Style******
+*****************************/
+.navbar {
+    width: 100%;
+}
+.navbar .navbar-inverse{
+    width: 100%;
+}
+.navbar{
+    border-radius: 0;
+}
+.collapse ul li a i{
+    font-size: 1.7em;
+    vertical-align: middle;
+}
+.navbar-brand > .row{
+    height: 50px;
+    color: #3498db;
+    margin-left: 20px;
+}
+.navbar-brand .row > img{
+    border-radius: 50%;
+    margin: 2px 10px 2px 0;
+    width: 47px;
+    height: 47px;
+    
+}
+.nav-search{
+    margin-left: 20px;
+    max-width: 500px;
+    width: 500px;
+    
+}
+.nav-search > .form-group{
+    height: 30px;
+    margin-top: 2px;
+}
+.nav-search > .form-group input[type="text"]:focus{
+    background-color: #FFF;
+    color: #666;
+    font-size: 1.3em;
+}
+.nav-search > .form-group input[type="text"]:focus + a{
+    background-color: #3498db;
+    color: #FFF;
+
+}
+.form-group button{
+    padding:0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+}
+.nav-search .form-control{
+    max-width: 500px ;
+    width: 500px;
+    border-radius: 3px;
+    display: block;
+    background-color: rgba(148, 158, 160, 0.3);
+    border: 1px solid rgba(90, 96, 100, 0.71);
+    margin: 0 auto;
+}
+.form-group > a{
+    padding: 4px 10px;
+    position: relative;
+    float: right;
+    top: -33px;
+    border-radius: 0 3px 3px 0;
+    z-index: 999px;
+}
+
+.form-group a i{
+    font-size: 1.7em;
+    color: #fff;
+}
+.form-group > a:hover{
+    background-color: #3498db;
+    text-decoration: none !important;
+    color: #FFF ;
+}
+
+
+/*****************************
+******End Navbar Style******
+*****************************/
